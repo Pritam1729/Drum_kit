@@ -47,19 +47,7 @@ document.addEventListener("keydown",function(event) {
 })
 
 function buttonanimation(currentkey){
-    // var item = "."+currentkey;
-    // document.querySelector(item).addEventListener("mousedown",function(){
-    //     document.querySelector(item).style.color = "white"
-    // })
-    // document.querySelector(item).addEventListener("mouseup",function(){
-    //     document.querySelector(item).style.color = "#DA0463"
-    // })
-    // document.querySelector(item).addEventListener("keydown",function(){
-    //     document.querySelector(item).style.color = "white"
-    // })
-    // document.querySelector(item).addEventListener("keyup",function(){
-    //     document.querySelector(item).style.color = "#DA0463"
-    // })
+    
 
     var buttonClass = document.querySelector("."+currentkey)
     buttonClass.classList.add("pressed")
